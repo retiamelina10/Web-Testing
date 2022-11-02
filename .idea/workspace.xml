@@ -4,33 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="715fda6e-1ada-4655-a845-61965e1037da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CucumberTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/pages/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/pages/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/pages/Logout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/pages/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/pages/SelectCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/stepdefinition/CartStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/stepdefinition/LoginStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/stepdefinition/LogoutStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/stepdefinition/RegisterStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/starter/stepdefinition/SelectCategoryStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Cart.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Logout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Register.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SelectCategory.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/webdriver/chromedriver.exe" afterDir="false" />
+    <list default="true" id="715fda6e-1ada-4655-a845-61965e1037da" name="Changes" comment="first">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +165,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667130124488</updated>
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1667369480933</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667369480934</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +185,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MiniProject_Web$Feature__Register.ic" NAME="Feature: Register Coverage Results" MODIFIED="1667231415812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
