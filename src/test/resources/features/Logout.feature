@@ -6,4 +6,5 @@ Feature: Log Out
   Scenario: log out
     Given I have login And Iam in dashboard page
     When I click icon account
-    Then I click logout button
+    And I click logout button
+    Then I go to login page

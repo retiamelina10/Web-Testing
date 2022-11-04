@@ -22,7 +22,10 @@ public class Register extends PageObject {
         }
 
         private By headerThePage() {
-                return By.xpath("//div[@class='v-main__wrap']");
+                return By.xpath("//div[@class='mt-3 text-center']");
+        }
+        private By errorMessage(){
+                return By.xpath("//div/i");
         }
 
         public void openUrlRegister() {
@@ -46,7 +49,24 @@ public class Register extends PageObject {
                 $(registerButton()).click();
         }
 
-        public void goTOpage() {
+
+        public void errorMessageIsDisplayed() {
+                $(errorMessage()).isDisplayed();
+        }
+
+        public void inputValidName(String retiamelina) {
+                $(fieldName()).type(retiamelina);
+        }
+
+        public void inputValidEmail(String s) {
+                $(fieldEmail()).type(s);
+        }
+
+        public void inputValidPassword(String retiaah25) {
+                $(fieldPassword()).type(retiaah25);
+        }
+
+        public void goToPage() {
                 $(headerThePage()).isDisplayed();
         }
 }

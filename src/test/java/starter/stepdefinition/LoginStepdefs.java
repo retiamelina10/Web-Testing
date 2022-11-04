@@ -15,13 +15,13 @@ public class LoginStepdefs {
         login.openUrlLogin();
     }
     @When("I am input my email {string}")
-    public void iAmInputMyEmail(String email) {
-        login.inputMyEmail("retiamelina@gmail.com");
+    public void iAmInputMyEmail(String arg4) {
+        login.inputMyEmail(arg4);
     }
 
     @And("I am input my password {string}")
-    public void iAmInputMyPassword(String password) {
-        login.inputMyPassword("Retiaah10");
+    public void iAmInputMyPassword(String arg5) {
+        login.inputMyPassword(arg5);
     }
 
     @And("I click login button")
@@ -29,8 +29,24 @@ public class LoginStepdefs {
         login.clickLoginButton();
     }
 
-    @Then("I can login")
-    public void iCanLogin() {
+
+    @Then("I go to home page")
+    public void iGoToHomePage() {
         login.dashboardIsDisplayed();
+    }
+
+    @Then("I can not login")
+    public void iCanNotLogin() {
+        login.iconLoginIsDisplayed();
+    }
+
+    @When("I am input my email")
+    public void iAmInputMyEmail() {
+        login.inputMyValidEmail("retiamelina@gmail.com");
+    }
+
+    @And("I input my password")
+    public void iInputMyPassword() {
+        login.inputMyValidPassword("Retiaah10");
     }
 }

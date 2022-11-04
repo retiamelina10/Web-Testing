@@ -37,5 +37,6 @@ public class LogoutStepdefs {
         logout.inputEmail("retiamelina@gmail.com");
         logout.inputPassword("Retiaah10");
         logout.clickLoginButton();
+        logout.goToLoginPage();
     }
 }

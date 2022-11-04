@@ -33,9 +33,33 @@ public class RegisterStepdefs {
         register.inputPassword(arg3);
     }
 
-    @Then("I click register button")
+    @And("I click register button")
     public void iClickRegisterButton() {
         register.clickRegisterButton();
-        register.goTOpage();
+    }
+
+    @Then("I get the result {string}")
+    public void iGetTheResult(String arg) {
+        register.errorMessageIsDisplayed();
+    }
+
+    @When("I am input name")
+    public void iAmInputName() {
+        register.inputValidName("retiamelina");
+    }
+
+    @And("I am input email")
+    public void iAmInputEmail() {
+        register.inputValidEmail("retiamelina27@gmail.com");
+    }
+
+    @And("I input password")
+    public void iInputPassword() {
+        register.inputValidPassword("Retiaah10");
+    }
+
+    @Then("I go to login page")
+    public void iGoToLoginPage() {
+        register.goToPage();
     }
 }

@@ -1,4 +1,4 @@
-
+@SelectCategory
 Feature: Select Category
   As a user
   I want to select item buy category

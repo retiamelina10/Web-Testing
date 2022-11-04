@@ -26,6 +26,9 @@ public class Logout extends PageObject {
     private By headerIconLogin(){
         return By.className("//div[contains(@class,'title')][text()='Login']");
     }
+    private By loginPage(){
+        return By.className("container");
+    }
     public void openUrlAltashop() {
         openAt("/");
     }
@@ -56,5 +59,9 @@ public class Logout extends PageObject {
 
     public void clickLoginButton() {
         $(loginButton()).click();
+    }
+
+    public void goToLoginPage() {
+        $(loginPage()).isDisplayed();
     }
 }
